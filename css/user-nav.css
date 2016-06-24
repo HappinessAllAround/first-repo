@@ -1,0 +1,7 @@
+/*override scrolling nav.css
+@media (min-width: 768px)
+
+/* override paading for navbar*/
+.navbar {
+	padding: 0;
+}

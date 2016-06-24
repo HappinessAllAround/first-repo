@@ -1,10 +1,9 @@
-<<<<<<< walden.html
+
 <!DOCTYPE html>
-<<<<<<< HEAD
+
 <!--Basic skeleton for bootstrap coding-->
 <!--minified css and js files-->
-=======
->>>>>>> adddavidtmiller
+=
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -14,7 +13,9 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="file://B:/GITHUB/first-repo/css/bootstrap.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="file://B:/GITHUB/first-repo/css/scrolling-nav.css"/>
+    <link type="text/css" rel="stylesheet" href="file://B://GITHUB/first-repo/css/user-nav.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,8 +24,69 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body id="page-top"  data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- #pagetop id part of scrolling feature data-spy and data-target part of bootstap.min.css-->
+
+    <!--Nav-->
+    <nav class="navbar  navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+
+            <!--tooggle button for mobile-sized frame-->
+            <div class"navbar-header page scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation><span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+            <!--for brand logo-->
+            <a class="navbar-brand page-scroll" href="#pagetop">Log Name</a>
+
+
+            </div>
+
+            <!--Collect nav-linkf, forms and any other content for toggling-->
+            <div class="collapse, navbar-collapse, navbar-ex1-collapse">
+
+                <ul class="nav navbar-nav">
+                    <!--active homepage-->
+                    <li class="active">
+                        <a href="#Home"> Home</a>
+
+                    </li>
+
+                    <!--other links-->
+                    <li >
+                        <a href="#Link here" class="page-scroll" />Services</a>
+                    </li>
+
+                    <li >
+                        <a href="#Link here" class="page-scroll"/>Link Here</a>
+                    </li>
+
+                     <li >
+                        <a href="#Link here" class="page-scroll"/>Link Here </a>
+                    </li>
+
+                     <li>
+                     <a href="#Link here" class="page-scroll"/>Link Here</a>
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-default navbar-btn navbar-right"> Log in </button>
+                  
+
+
+            </div>
+
+        </div>
+    </nav>
+    
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
