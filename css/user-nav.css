@@ -1,7 +1,54 @@
-/*override scrolling nav.css
-@media (min-width: 768px)
+/*override scrolling nav.css*/
 
-/* override paading for navbar*/
+body{
+	width:100%;
+	height: 100%;
+}
+
+.container
+{
+	height: 100%;
+}
+html{
+
+	width: 100%;
+	height: 100%;
+}
+.jumbotron{
+	background-color:transparent;
+	color: white;
+}
+
 .navbar {
 	padding: 0;
+}
+
+.btn {
+
+	background-color: #1c86ee;
+	color: white;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	background-color: transparent;
+	border:1px solid white;
+	border-radius:5px;
+
+}
+/*css to make order button transparent*/
+#btn-transparent{
+
+}
+
+#spn-img{
+
+  background: linear-gradient( rgba(95, 66, 102, 0.7), rgba(95, 66, 102, 0.27) ), url('file://B://GITHUB/first-repo/img/s.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.col-lg-4{
+
+	background-color: grey;
 }
